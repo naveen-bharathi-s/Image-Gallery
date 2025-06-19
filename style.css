@@ -39,6 +39,7 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin: 35px;
 }
 .Image-gallery__pic img{
     width: 250px;
