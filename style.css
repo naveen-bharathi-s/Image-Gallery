@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Image-gallery{
+    background-color: lavenderblush;
+    border: solid blue 5px;
+}
+
+.Image-gallery__heading{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 1px;
+}
+.Image-gallery__heading h1{
+    padding: 5px;
+}
+
+.Image-gallery__title{
+    margin: 0 450px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid grey 5px ;
+    display: flex;
+    justify-content: center;
+}
+.Image-gallery__title p{
+         font-size: 25px;
+}
+
+.Image-gallery__pic{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Image-gallery__pic img{
+    width: 250px;
+    height: 250px;
+    border: solid black 5px;
+    flex-basis: 20%;
+}
+
